@@ -7,7 +7,8 @@
 div.pro {
 	width:958px;
 	min-height:1256px;
-	background-color:#666;
+	background-color:#F5F4F2;
+	margin:0 auto;
 }
 div {
 	outline:1px dashed #000;
@@ -85,7 +86,7 @@ div.bigax {
 }
 div.anavin {
 	width:958px;
-	height:230px;
+	height:280px;
 	background-color:#F5F4F2;
 }
 /*div.achild1 {
@@ -109,22 +110,19 @@ div.achild3 {
 
 div.achild1 {
 	width:308px;
-	height:130px;
+	height:220px;
 	margin:0px 10px;
 	float:left;
-	background-image:url(23.jpg);
 }
 div.achild2 {
 	width:300px;
-	height:130px;
-	margin: -130px 333px;
-	background-image:url(24.jpg);
+	height:220px;
+	margin: -220px 333px;
 }
 div.achild3 {
 	width:300px;
-	height:130px;
+	height:220px;
 	margin:0px 648px;
-	background-image:url(25.jpg);
 }
 div.clear {
 	width:0;
@@ -173,6 +171,40 @@ div.fchild2 {
 	height:60px;
 	float:left;
 }
+p {
+	color:#999;
+}
+.tel {
+	background-image:url(32.jpg);
+	background-repeat:no-repeat;
+	background-position:  left center;
+	background-color:#FFFF00;
+	padding-left:20px;
+	color:#999999;
+}
+.ad {
+	background-image:url(33.jpg);
+	background-repeat:no-repeat;
+	background-position:  left center;
+	background-color:#FFFF00;
+	padding-left:20px;
+	color:#999999;
+}
+.mail {
+	background-image:url(34.jpg);
+	background-repeat:no-repeat;
+	background-position:  left center;
+	background-color:#FFFF00;
+	padding-left:20px;
+	color:#999999;
+}
+.map {
+	background-image:url(35.jpg);
+	background-repeat:no-repeat;
+	background-position:  left center;
+	padding-left:20px;
+	color:#999999;
+}
 </style>
 </head>
 
@@ -211,16 +243,60 @@ div.fchild2 {
   </div>
   <div class="bigax"></div>
   <div class="anavin">
-    <div class="achild1" ></div>
-    <div class="achild3" ></div>
-    <div class="achild2" ></div>
+    <div class="achild1" ><a  href="#"><img src="23.jpg" alt="lequipe" class="ax" /></a>
+      <p>this is a test</p>
+    </div>
+    <div class="achild3" ><a  href="#"><img src="24.jpg" alt="lequipe" class="ax" /></a>
+      <p>this is a test</p>
+    </div>
+    <div class="achild2" ><a  href="#"><img src="25.jpg" alt="lequipe" class="ax" /></a>
+      <p>this is a test</p>
+    </div>
     <div class="clear"></div>
   </div>
   <div class="parts">
-    <div class="pchild1"></div>
-    <div class="pchild2"></div>
-    <div class="pchild3"></div>
-    <div class="pchild4"></div>
+    <div class="pchild1"><div style=" width:auto; height:200px;margin:20px">
+      <p  >
+        <center style="color:#999999";>
+          IMPALA WEBSTUDIO
+        </center>
+      </p>
+      <a  href="#" style="text-decoration:none">
+      <ul style="  text-transform:capitalize; color:#999999; font-family:Georgia, 'Times New Roman', Times, serif">
+        <li>Accueil</li>
+        <li>Studio</li>
+        <li>Services</li>
+        <li>Portfolio</li>
+        <li>Blog</li>
+        <li>Contact</li>
+      </ul>
+      </a> </div></div>
+    <div class="pchild2">
+      <div style=" width:auto; height:200px;margin:20px; text-align:justify;">
+        <p><img src="31.jpg" alt="quil"  />QUOI DE NEUF?</p>
+        <a href="#" style="text-decoration:none">
+        <p>>>Respansive design. Ou comment faire entrer une girafe dans une Twingo en trois temps.</p>
+        <p>>>Musique maestro</p>
+        <p>>>La veritable nature des Impalas</p>
+        </a></div>
+    </div>
+    <div class="pchild3">
+      <div style=" width:auto; height:200px;margin:20px;">
+        <p>RESTONS EN CONTACT</p>
+        <a href="#" style="text-decoration:none">
+        <p style=" display:inline; " class="tel"><span>03 20 56 85 87</span></p>
+        <br />
+        <p style="display:inline; " class="mail"><span>cantact@impala-websdio.fr</span></p>
+        <br />
+        <p style="display:inline; " class="ad"><span>43 rue Charlie Chaplin 59100 ROUBAIX</span></p>
+        <br />
+        <p style="display:inline; " class="map"><span>Trouvez-nous rapidement sur      GOOGLE MAPS</span></p>
+        </a> </div>
+    </div>
+    <div class="pchild4">
+      <div style=" width:auto; height:200px; margin:20px; padding-top:3px;
+     "><p>RECEVEZ NOTRE</p><a href="#" style="text-decoration:none;"><p>Restez informes des sernieres actus et potins de</p> <input type="text" name="email"  value="votre email ici " width="50"/><input type="submit" value="OK" width="50px" /><p>Votre adres email ne sera en aucun revendus,ou par soiad.</p></a></div>
+    </div>
     <div class="clear"></div>
   </div>
   <div class="footer" >
